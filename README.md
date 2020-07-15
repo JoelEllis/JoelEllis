@@ -1,4 +1,3 @@
-### Hi there 👋
 
 <!--
 **JoelEllis/JoelEllis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +13,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+`c72a324 (Templated README, 2020-07-15)`
+`generated 2020-07-15T07/15/20Z`

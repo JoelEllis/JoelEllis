@@ -8,7 +8,7 @@ readme_src.datetime = os.date("%Y-%m-%dT%xZ")
 
 -- Last git commit in readme source.
 local f = io.popen("git log -n 1 --pretty=reference -- README-source.md", 'r')
-readme_src.git_last = f:read('*a')
+readme_src.git_last = f:read('*a'):gsub("^%s*(.-)%s*$", "%1")
 f:close()
 
 -- Write template ot file.
