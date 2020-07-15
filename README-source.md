@@ -1,4 +1,3 @@
-
 <!--
 **JoelEllis/JoelEllis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -13,5 +12,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-`{*git_last*}`
-`generated {*datetime*}`
+```sh
+$ joelellis
+human                   v{{age_year}}.{{age_month}}.{{age_day}}
+occupation:             programmer
+programming_languages:  JavaScript, Rust
+                        Python, TypeScript
+# {*git_last*}
+# generated {*datetime*}
+```
