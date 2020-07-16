@@ -12,16 +12,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```
-$ joel-ellis
-human 15.2.11
-Joel Ellis
-Programmer in the UK
 
-INFO:
---programming-languages:    JavaScript, Rust
-                            Lua, Python, TypeScript
-
-# e1d9e7e (plain text highlighting, 2020-07-16)
-# generated 2020-07-16T13:20:53Z
-```
+    $ joel-ellis
+    human 15.2.11
+    Joel Ellis
+    Programmer in the UK
+    
+    INFO:
+    --programming-languages:    JavaScript, Rust
+                                Lua, Python, TypeScript
+    
+    # f195628 (add auto-build + make sure there isn't a loop., 2020-07-16)
+    # generated 2020-07-16
