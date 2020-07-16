@@ -1,0 +1,33 @@
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '* 1 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - uses: leafo/gh-actions-lua@v6
+    - uses: leafo/gh-actions-luarocks@v2
+      # with:
+      #   luaVersion: "5.1.5"
+    - name: Install Lua dependencies
+      run: |
+        luarocks install lua-resty-template
+    - name: Update README
+      # env:
+      run: |-
+        lua README.lua
+        cat README.md
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "joel@ellis.link"
+        git config --global user.name "Joel Ellis"
+        git add -A
+        git commit -m "Updated content" || exit 0
+        git push
