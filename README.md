@@ -12,8 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```bash
-$ joelellis
+```
+$ joel-ellis
 human 15.2.11
 Joel Ellis
 Programmer in the UK
@@ -22,6 +22,6 @@ INFO:
 --programming-languages:    JavaScript, Rust
                             Lua, Python, TypeScript
 
-# 94e1612 (Better format, 2020-07-16)
-# generated 2020-07-16T13:19:17Z
+# e1d9e7e (plain text highlighting, 2020-07-16)
+# generated 2020-07-16T13:20:53Z
 ```
