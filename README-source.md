@@ -12,12 +12,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```sh
+```bash
 $ joelellis
-human                   v{{age_year}}.{{age_month}}.{{age_day}}
-occupation:             programmer
-programming_languages:  JavaScript, Rust
-                        Python, TypeScript
+human {{age_year}}.{{age_month}}.{{age_day}}
+Joel Ellis
+Programmer in the UK
+
+INFO:
+--programming-languages:    JavaScript, Rust
+                            Lua, Python, TypeScript
+
 # {*git_last*}
 # generated {*datetime*}
 ```
