@@ -51,7 +51,7 @@ readme_src.age_year=age.year
 readme_src.age_month=age.month
 readme_src.age_day=age.day
 -- Last git commit in readme source.
-local f = io.popen("git log -n 1 --pretty=reference -- README-source.md", 'r')
+local f = io.popen([[git log -n 1 --pretty=reference -- "README-source.md"]], 'r')
 readme_src.git_last = f:read('*a'):gsub("^%s*(.-)%s*$", "%1")
 f:close()
 
