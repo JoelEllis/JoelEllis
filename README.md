@@ -12,12 +12,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```sh
+```bash
 $ joelellis
-human                   v15.2.10
-occupation:             programmer
-programming_languages:  JavaScript, Rust
-                        Python, TypeScript
-# c72a324 (Templated README, 2020-07-15)
-# generated 2020-07-15T21:56:14Z
+human 15.2.11
+Joel Ellis
+Programmer in the UK
+
+INFO:
+--programming-languages:    JavaScript, Rust
+                            Lua, Python, TypeScript
+
+# 94e1612 (Better format, 2020-07-16)
+# generated 2020-07-16T13:19:17Z
 ```
