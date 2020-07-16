@@ -12,16 +12,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```
-$ joel-ellis
-human {{age_year}}.{{age_month}}.{{age_day}}
-Joel Ellis
-Programmer in the UK
 
-INFO:
---programming-languages:    JavaScript, Rust
-                            Lua, Python, TypeScript
-
-# {*git_last*}
-# generated {*datetime*}
-```
+    $ joel-ellis
+    human {{age_year}}.{{age_month}}.{{age_day}}
+    Joel Ellis
+    Programmer in the UK
+    
+    INFO:
+    --programming-languages:    JavaScript, Rust
+                                Lua, Python, TypeScript
+    
+    # {*git_last*}
+    # generated {*datetime*}
