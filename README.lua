@@ -5,7 +5,7 @@ local readme_src = template.new "README-source.md"
 -- Import HTTP
 
 -- DateTime of file generation
-readme_src.datetime = os.date("!%Y-%m-%d") --T%XZ
+readme_src.datetime = os.date("!%Y-%m-%dT%XZ") --
 
 -- age calcualtion
 
