@@ -12,8 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```bash
-$ joelellis
+```
+$ joel-ellis
 human {{age_year}}.{{age_month}}.{{age_day}}
 Joel Ellis
 Programmer in the UK
