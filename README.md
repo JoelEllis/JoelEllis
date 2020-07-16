@@ -19,8 +19,8 @@ Here are some ideas to get you started:
     Programmer in the UK
     
     INFO:
-    --programming-languages:    JavaScript, Rust
+    --programming-languages     JavaScript, Rust
                                 Lua, Python, TypeScript
     
-    # f195628 (add auto-build + make sure there isn't a loop., 2020-07-16)
-    # generated 2020-07-16
+    # f509b92 (Remove colon, 2020-07-16)
+    # generated 2020-07-16T13:42:47Z
