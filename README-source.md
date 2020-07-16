@@ -19,7 +19,7 @@ Here are some ideas to get you started:
     Programmer in the UK
     
     INFO:
-    --programming-languages:    JavaScript, Rust
+    --programming-languages     JavaScript, Rust
                                 Lua, Python, TypeScript
     
     # {*git_last*}
