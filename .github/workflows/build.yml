@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '* 1 * * *'
+    - cron:  '0 1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
       run: |-
         git diff
         git config --global user.email "joel@ellis.link"
-        git config --global user.name "Joel Ellis"
+        git config --global user.name "README Builder"
         git add -A
         git commit -m "Updated content" || exit 0
         git push
