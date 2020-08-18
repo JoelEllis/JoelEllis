@@ -15,9 +15,9 @@ local function get_days_in_month(month, year)
    
   -- check for leap year
   if (month == 2) then
-    if (math.mod(year,4) == 0) then
-     if (math.mod(year,100) == 0)then                
-      if (math.mod(year,400) == 0) then                    
+    if ((year%4) == 0) then
+     if ((year%100) == 0)then                
+      if ((year%400) == 0) then                    
           d = 29
       end
      else                
