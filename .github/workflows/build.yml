@@ -11,8 +11,11 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
-    - uses: leafo/gh-actions-lua@v6
-    - uses: leafo/gh-actions-luarocks@v2
+    - name: Install lua & luarocks
+      run: |
+        apt install lua5.2 luarocks
+#     - uses: leafo/gh-actions-lua@v6
+#     - uses: leafo/gh-actions-luarocks@v2
       # with:
       #   luaVersion: "5.1.5"
     - name: Install Lua dependencies
