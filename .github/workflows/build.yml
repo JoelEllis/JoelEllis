@@ -20,7 +20,7 @@ jobs:
       #   luaVersion: "5.1.5"
     - name: Install Lua dependencies
       run: |
-        luarocks install lua-resty-template
+        sudo luarocks install lua-resty-template
     - name: Update README
       # env:
       run: |-
